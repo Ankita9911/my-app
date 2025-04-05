@@ -24,19 +24,22 @@ export default function FeatureButton() {
             <Link href="https://v0-new-project-oltqdc2avbx-06vpwz.vercel.app/">
               <Button variant="ghost" className="w-full text-[#800080]">InvestMate</Button>
             </Link>
-            <Link href="/feature2">
+            <Link href="http://127.0.0.1:5000/">
+              <Button variant="ghost" className="w-full text-[#800080]">Personalised AI FinPlanner</Button>
+            </Link>
+            <Link href="http://127.0.0.1:5000/chatbot">
               <Button variant="ghost" className="w-full text-[#800080]">FinBot</Button>
             </Link>
-            <Link href="/feature3">
+            <Link href="http://127.0.0.1:5000/simulation">
               <Button variant="ghost" className="w-full text-[#800080]">ProfitPredict</Button>
             </Link>
-            <Link href="/feature4">
+            <Link href="http://127.0.0.1:5000/tax_savings">
               <Button variant="ghost" className="w-full text-[#800080]">SmartSave</Button>
             </Link>
             <Link href="https://v0-new-project-fug8e0mtfxy.vercel.app/">
               <Button variant="ghost" className="w-full text-[#800080]">FinZone</Button>
             </Link>
-            <Link href="/feature5">
+            <Link href="http://127.0.0.1:5000/followup">
               <Button variant="ghost" className="w-full text-[#800080]">Contact Us</Button>
             </Link>
           </div>

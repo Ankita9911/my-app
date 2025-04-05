@@ -44,17 +44,22 @@ export default function Home() {
           InvestMate
         </button>
       </Link>
-      <Link href="/finbot">
+      <Link href="http://127.0.0.1:5000/">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          AI FinPlanner
+        </button>
+        </Link>
+      <Link href="http://127.0.0.1:5000/chatbot">
         <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
           FinBot
         </button>
       </Link>
-      <Link href="/profit-predict">
+      <Link href="http://127.0.0.1:5000/simulation">
         <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
           ProfitPredict
         </button>
       </Link>
-      <Link href="/smart-save">
+      <Link href="http://127.0.0.1:5000/tax_savings">
         <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
           SmartSave
         </button>
