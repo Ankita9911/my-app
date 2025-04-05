@@ -18,10 +18,10 @@ export default function FeatureButton() {
         {/* Pop-up content */}
         <PopoverContent className="w-48 bg-white shadow-md rounded-md p-2">
           <div className="flex flex-col space-y-2">
-            <Link href="https://financeytpath.vercel.app/">
+            <Link href="https://financeytpath-4dmtnmnn0-aanya-s-projects-cb2ac5fc.vercel.app/">
               <Button variant="ghost" className="w-full text-[#800080]" >AI FinLearn Path</Button>
             </Link>
-            <Link href="https://v0-new-project-oltqdc2avbx-7dvymh.vercel.app/">
+            <Link href="https://v0-new-project-oltqdc2avbx-06vpwz.vercel.app/">
               <Button variant="ghost" className="w-full text-[#800080]">InvestMate</Button>
             </Link>
             <Link href="/feature2">
