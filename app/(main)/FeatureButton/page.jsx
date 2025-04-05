@@ -33,7 +33,7 @@ export default function FeatureButton() {
             <Link href="/feature4">
               <Button variant="ghost" className="w-full text-[#800080]">SmartSave</Button>
             </Link>
-            <Link href="/feature5">
+            <Link href="https://v0-new-project-fug8e0mtfxy.vercel.app/">
               <Button variant="ghost" className="w-full text-[#800080]">FinZone</Button>
             </Link>
             <Link href="/feature5">

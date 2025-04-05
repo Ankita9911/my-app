@@ -59,7 +59,7 @@ export default function Home() {
           SmartSave
         </button>
       </Link>
-      <Link href="/finplay">
+      <Link href="https://v0-new-project-fug8e0mtfxy.vercel.app/">
         <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
           FinZone
         </button>
