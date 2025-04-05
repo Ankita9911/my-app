@@ -34,7 +34,7 @@ export default function Home() {
     </h2>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      <Link href="https://financeytpath-4dmtnmnn0-aanya-s-projects-cb2ac5fc.vercel.app/">
+      <Link href="https://financeytpath.vercel.app/">
         <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
           AI Financial Learning Path
         </button>
