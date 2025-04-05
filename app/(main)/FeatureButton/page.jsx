@@ -19,7 +19,7 @@ export default function FeatureButton() {
         <PopoverContent className="w-48 bg-white shadow-md rounded-md p-2">
           <div className="flex flex-col space-y-2">
             <Link href="https://financeytpath.vercel.app/">
-              <Button variant="ghost" className="w-full text-[#800080]" >AI Financial Planner</Button>
+              <Button variant="ghost" className="w-full text-[#800080]" >AI FinLearn Path</Button>
             </Link>
             <Link href="https://v0-new-project-oltqdc2avbx-7dvymh.vercel.app/">
               <Button variant="ghost" className="w-full text-[#800080]">InvestMate</Button>
@@ -34,7 +34,7 @@ export default function FeatureButton() {
               <Button variant="ghost" className="w-full text-[#800080]">SmartSave</Button>
             </Link>
             <Link href="/feature5">
-              <Button variant="ghost" className="w-full text-[#800080]">FinPlay Zone</Button>
+              <Button variant="ghost" className="w-full text-[#800080]">FinZone</Button>
             </Link>
             <Link href="/feature5">
               <Button variant="ghost" className="w-full text-[#800080]">Contact Us</Button>
