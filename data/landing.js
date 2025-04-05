@@ -5,6 +5,9 @@ import {
     CreditCard,
     Globe,
     Zap,
+    BookOpen,
+    TrendingUpIcon,
+    Gamepad,
   } from "lucide-react";
   
   // Stats Data
@@ -36,6 +39,16 @@ import {
         "Effortlessly plan and manage your monthly expenses with AI-driven budgeting tools.",
     },
     {
+      icon: <TrendingUpIcon className="h-8 w-8 text-[#800080]" />,
+      title: "Investment Suggestion",
+      description: "Get personalized investment ideas based on your goals and risk profile with AI-backed recommendations.",
+    },
+    {
+      icon: <BookOpen className="h-8 w-8 text-[#800080]" />,
+      title: "AI Financial Learning Path",
+      description: "Answer a few questions and unlock a personalized journey to master finance and investing.",
+    },
+    {
       icon: <Receipt className="h-8 w-8 text-[#800080]" />,
       title: "Investment Insights",
       description:
@@ -62,7 +75,7 @@ import {
       description: "Track your income and expenses in real-time, categorized for better financial clarity.  ",
     },
     {
-      icon: <Zap className="h-8 w-8 text-[#800080]" />,
+      icon: <Gamepad className="h-8 w-8 text-[#800080]" />,
       title: "Financial Games & Challenges",
       description: "Learn finance the fun way! Play interactive games to improve budgeting, investing, and saving skills.",
     },

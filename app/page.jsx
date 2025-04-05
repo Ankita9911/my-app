@@ -27,6 +27,57 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="py-20 bg-white">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center text-[#800080] mb-12">
+      Explore Our Features
+    </h2>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <Link href="https://financeytpath.vercel.app/">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          AI Financial Planner
+        </button>
+      </Link>
+      <Link href="https://v0-new-project-oltqdc2avbx-7dvymh.vercel.app/">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          InvestMate
+        </button>
+      </Link>
+      <Link href="/finbot">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          FinBot
+        </button>
+      </Link>
+      <Link href="/profit-predict">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          ProfitPredict
+        </button>
+      </Link>
+      <Link href="/smart-save">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          SmartSave
+        </button>
+      </Link>
+      <Link href="/finplay">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          FinPlay Zone
+        </button>
+      </Link>
+      <Link href="/dashboard">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          Dashboard
+        </button>
+      </Link>
+      <Link href="/transaction/create">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          Add Transactions
+        </button>
+      </Link>
+    </div>
+  </div>
+</section>
+
       <section className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Everything you need to manage your finances and make investment decisions</h2>
