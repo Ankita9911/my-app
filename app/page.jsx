@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -10,7 +11,19 @@ import {
 } from "@/data/landing";
 import HeroSection from "@/components/hero";
 import Link from "next/link";
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    const injectScript = (src) => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.async = true;
+      document.body.appendChild(script);
+    };
+
+    injectScript("https://cdn.botpress.cloud/webchat/v2.3/inject.js");
+    injectScript("https://files.bpcontent.cloud/2025/04/05/20/20250405203350-YUI4KOAD.js");
+  }, []);
   return (
     <div className="mt-40">
        <HeroSection/> 
