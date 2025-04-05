@@ -6,8 +6,8 @@ import { Toaster } from 'sonner';
 
 const inter=Inter({subsets:['latin']});
 export const metadata = {
-  title: "Welth",
-  description: "one stop Finance platform",
+  title: "FinVerse",
+  description: "one stop Finance and Investment platform",
 };
 
 export default function RootLayout({ children }) {
