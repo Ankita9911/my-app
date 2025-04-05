@@ -79,6 +79,11 @@ export default function Home() {
           Add Transactions
         </button>
       </Link>
+      <Link href="http://127.0.0.1:5000/followup">
+        <button className="w-full bg-white border-2 border-[#800080] text-[#800080] hover:bg-[#800080] hover:text-white font-semibold py-3 px-5 rounded-2xl shadow transition duration-300">
+          Contact Us
+        </button>
+      </Link>
     </div>
   </div>
 </section>
