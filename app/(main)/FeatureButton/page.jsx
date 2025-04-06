@@ -40,7 +40,7 @@ export default function FeatureButton() {
               <Button variant="ghost" className="w-full text-[#800080]">FinZone</Button>
             </Link>
             <Link href="http://127.0.0.1:5000/followup">
-              <Button variant="ghost" className="w-full text-[#800080]">Contact Us</Button>
+              <Button variant="ghost" className="w-full text-[#800080]">Get Initial Advice</Button>
             </Link>
           </div>
         </PopoverContent>
