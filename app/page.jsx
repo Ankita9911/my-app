@@ -29,7 +29,7 @@ export default function Home() {
        <HeroSection/> 
       <section className="py-20 bg-[#C27AC2]"> 
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {statsData.map((statsData,index) => (
               <div key={index} className="text-center">
                 <div className="text-4xl font-bold text-black-600 mb-2">{statsData.value}</div>
@@ -37,7 +37,8 @@ export default function Home() {
 
               </div>
             ))}
-          </div>
+          </div> */}
+          
         </div>
       </section>
       <section className="py-20 bg-white">
